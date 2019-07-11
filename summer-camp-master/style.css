@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+  }
+
+  a {
+    text-decoration: none
+  }
+
+  .logo {
+    height: 75px;
+    margin: 3% 10%;
+    float: left;
+  }
+  
+  header {
+    background-color: #000546;
+    height: 150px;
+  }
+  
+  main {
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    color: white;
+    text-align: center;
+    padding: 3%;
+  }
+  
+  nav > a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border-radius: 25px;
+    padding: 1%;
+    background-color: rgb(219, 10, 10);
+    text-align: center;
+    border: 2px solid white;
+    float: right;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 5%;
+  }
+  
+  #profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+  h1 {
+    color:rgb(0, 0, 0);
+    margin: 1% auto;
+  }
+  
+  button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: red;
+    text-align: center;
+    color:white;
+    padding: 1%;
+  }
+
+
+  footer {
+      text-align: center;
+  }
+  #sanic{
+    margin-top: 10%;
+    margin:5%;
+  }
+  #about{
+    color:black;
+    font-size:50px;
+  }
+  .hamster{
+    font-size: 5px;
+  }
+  ul{
+   color: black;
+   text-align: left;
+   font-size: 20px;
+   font-family: 'Times New Roman', Times, serif;
+  }
